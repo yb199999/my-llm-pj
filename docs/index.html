@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Favicon -->
+
+    <!-- favicon -->
+
     <link
       rel="icon"
       type="image/png"
@@ -21,9 +23,11 @@
       sizes="180x180"
       href="./assets/favicon (12)/apple-touch-icon.png"
     />
+
     <link rel="manifest" href="/./assets/favicon (12)/site.webmanifest" />
 
     <!-- og 태그 -->
+
     <meta
       property="og:title"
       content="귀여운 강아지들을 만나보세요! - [핫도그]"
@@ -39,96 +43,20 @@
     <meta property="og:url" content="https://yb199999.github.io/my-llm-pj/" />
 
     <title>Hot Dog</title>
+    <!-- 폰트 css -->
+    <link rel="stylesheet" href="style.css" />
 
-    <!-- Bootstrap CSS (CDN) -->
-    <link
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-pzjw8f+ua7Kw1TIq0v8FqHU+tc8u6h6P1tVqDtwT4ftK7r2V9RjLKL4BPL8Um8p6"
-      crossorigin="anonymous"
-    />
-
-    <!-- 폰트 css
-    <link rel="stylesheet" href="style.css" /> -->
+    <section class="container">강아지 추천</section>
   </head>
   <body>
-    <div class="container mt-5">
-      <h1 class="text-center mb-4">강아지 추천</h1>
-      <p class="text-center lead mb-5">강아지 소개합니다</p>
+    <main>
+      <section class="container mt -4">
+        <p>강아지 추천 받기</p>
+        <section id="box"></section>
+        <button id="ccBtn">추천 받기</button>
+      </section>
+    </main>
 
-      <!-- 카드형 레이아웃으로 강아지 추천 내용 표시 -->
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card">
-            <img
-              src="https://via.placeholder.com/300x200"
-              class="card-img-top"
-              alt="강아지 이미지"
-            />
-            <div class="card-body">
-              <h5 class="card-title">강아지 이름</h5>
-              <p class="card-text">
-                귀여운 강아지에 대한 간단한 설명을 적습니다. 강아지의 특징과
-                성격을 소개하세요.
-              </p>
-              <a href="#" class="btn btn-primary">더 알아보기</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card">
-            <img
-              src="https://via.placeholder.com/300x200"
-              class="card-img-top"
-              alt="강아지 이미지"
-            />
-            <div class="card-body">
-              <h5 class="card-title">강아지 이름</h5>
-              <p class="card-text">
-                귀여운 강아지에 대한 간단한 설명을 적습니다. 강아지의 특징과
-                성격을 소개하세요.
-              </p>
-              <a href="#" class="btn btn-primary">더 알아보기</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card">
-            <img
-              src="https://via.placeholder.com/300x200"
-              class="card-img-top"
-              alt="강아지 이미지"
-            />
-            <div class="card-body">
-              <h5 class="card-title">강아지 소개</h5>
-              <p class="card-text">
-                귀여운 강아지에 대한 간단한 설명을 적습니다. 강아지의 특징과
-                성격을 소개하세요.
-              </p>
-              <a href="#" class="btn btn-primary">더 알아보기</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Bootstrap JS (CDN) -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zyDktl6S68nM3p7PslU3r3zR6jX2jXccvR5z5d98"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-      integrity="sha384-RoAzwhwe9sXPQQbJzj9E3aDO5fxw7k8ZxtXtKXh/1zluWLv5OZm2j9tSAn7c/TN1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-pzjw8f+ua7Kw1TIq0v8FqHU+tc8u6h6P1tVqDtwT4ftK7r2V9RjLKL4BPL8Um8p6"
-      crossorigin="anonymous"
-    ></script>
+    <script src="app.js"></script>
   </body>
 </html>
